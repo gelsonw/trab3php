@@ -17,8 +17,9 @@ PHP Composer;
 PHPUnit;
 
 Descrição:
-Estou ajustando ainda, pretendo melhorar bastante este exercício. 
-Eu não tenho experiência nem com testes unitários nem com a plataforma de deploy. 
+Estou ajustando ainda.
+Eu não tenho experiência com esta infraestrutura toda. Tem sido bastante gratificante aprender esta tecnologia
+e eu pretendo dar continuidade no exercício para tentar colocar isso em prática de alguma forma.
 Ainda falta efetuar o teste da aplicação.
 
 Roteiro incialmente utilizado:
