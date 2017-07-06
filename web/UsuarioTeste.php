@@ -18,7 +18,7 @@ class UsuarioTeste extends PHPUnit_framework_TestCase
 		
             $usuario = new Usuario();
             
-            $usuario->setNome('Gelson');
+            //$usuario->setNome('Gelson');
 
             $this->assertNotEmpty($usuario->getNome());
 	}
