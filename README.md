@@ -14,8 +14,8 @@
 Heroku;
 GitHub;
 PHP;
-PHP Composer;
 PHPUnit;
+Composer;
 
 ## Descrição:
 Estou ajustando ainda.
