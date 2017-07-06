@@ -1,6 +1,6 @@
 # Trabalho 3 - Metodologias Ágeis
 
-### TASIMA - Tecnologias Aplicadas a Sistemas de Informação com Métodos Ágeis - Uniritter
+### TASIMA - Tecnologias Aplicadas a Sistemas de Informação com Métodos Ágeis - UniRitter
 
 ### Professor: Daniel Wildt; 
 ### Aluno: Gelson W. Gonçalves
