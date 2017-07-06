@@ -1,6 +1,6 @@
 # Trabalho 3 - Metodologias Ágeis
 
-### TASIMA - Tecnologias Aplicadas a Sistemas de Informação com Métodos Ágeis - Uniritter
+### TASIMA - Tecnologias Aplicadas a Sistemas de Informação com Métodos Ágeis - UniRitter
 
 ### Professor: Daniel Wildt; 
 ### Aluno: Gelson W. Gonçalves
@@ -14,10 +14,12 @@
 Heroku;
 GitHub;
 PHP;
-PHP Composer;
 PHPUnit;
+Composer;
 
 ## Descrição:
+O Projeto está no GitHub. O Heroku está sem pipeline no momento mas está integrado ao GitHub.
+Foram criadas duas classes simples: Usuario e UsuarioTeste
 Estou ajustando ainda.
 Eu não tenho experiência com esta infraestrutura toda. Tem sido bastante gratificante aprender esta tecnologia
 e eu pretendo dar continuidade no exercício para tentar colocar isso em prática de alguma forma.
