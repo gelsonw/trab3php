@@ -18,6 +18,8 @@ PHPUnit;
 Composer;
 
 ## Descrição:
+O Projeto está no GitHub. O Heroku está sem pipeline no momento mas está integrado ao GitHub.
+Criada uma Classe User e uma UserTest simples.
 Estou ajustando ainda.
 Eu não tenho experiência com esta infraestrutura toda. Tem sido bastante gratificante aprender esta tecnologia
 e eu pretendo dar continuidade no exercício para tentar colocar isso em prática de alguma forma.
