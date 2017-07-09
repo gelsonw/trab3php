@@ -5,22 +5,20 @@ require_once 'Usuario.php';
 class UsuarioTeste extends PHPUnit_framework_TestCase 
 {
 	
-	public function setUp() 
-	{
-		$this->usuario = new Usuario();
-	}
-
         /**
         * @test
         */
-	public function testaNomeNaoVazio()
+	public function testaNomeVazio()
 	{
-		
             $usuario = new Usuario();
-            
-            //$usuario->setNome('Gelson');
+            $this->assertEmpty($usuario->getNome());
+	}
 
-            $this->assertNotEmpty($usuario->getNome());
+        public function testaNome()
+	{
+            $usuario = new Usuario();
+	    $usuario->setNome('Gelson');
+            $this->assertEquals('Gelson',$usuario->getNome());
 	}
 
 }
