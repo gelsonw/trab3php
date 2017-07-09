@@ -11,13 +11,13 @@ class UsuarioTeste extends PHPUnit_framework_TestCase
 	public function testaNomeVazio()
 	{
             $usuario = new Usuario();
-	    $usario->setNome('Gelson');
             $this->assertEmpty($usuario->getNome());
 	}
 
         public function testaNome()
 	{
             $usuario = new Usuario();
+	    $usuario->setNome('Gelson');
             $this->assertEquals('Gelson',$usuario->getNome());
 	}
 
