@@ -11,11 +11,9 @@
 - Realizar algum tipo de teste unitário;
 
 ### Tecnologias utilizadas:
-- Heroku;
-- GitHub;
 - PHP;
 - PHPUnit;
-- Composer;
+- Infraestrutura do Heroku integrado ao GitHub;
 
 ## Descrição:
 O Projeto está no GitHub. O Heroku está com uma pipeline que pode ser promovida a production.
