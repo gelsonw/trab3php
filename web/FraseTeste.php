@@ -16,7 +16,7 @@ class FraseTeste extends PHPUnit_framework_TestCase
 	public function testaGetFrase()
 	{
             $frase = new Frase();
-	    //$frase->setFrase("Frase");
+	    $frase->setFrase("Frase");
             $this->assertEquals('Frase',$frase->getFrase());
 	}
 
