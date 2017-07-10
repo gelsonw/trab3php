@@ -19,13 +19,20 @@
 require_once 'Frase.php';
 
 $frase = new Frase();
-$frase->setFrase($_POST['frase']);
+$frase->setFrase('');
 
-if (!empty($frase->getFrase())){
+
+if (isset($_POST['frase'])) { 
+	$frase->setFrase($_POST['frase']);
+} else {
+	$frase->setFrase('Metodologias ÁGeis');
+}	
+
+if(!empty($frase->getFrase())){
 	echo "<h3><MARQUEE HEIGHT=30 WIDTH=640 BEHAVIOR=ALTERNATE SCROLLAMOUNT=10>".$frase->getFrase()." </MARQUEE>";
-	$frase->setFrase('');
-}
-
+} else {
+  	echo "Digite uma frase por favor";
+} 
 ?>
 
 </body>
