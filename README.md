@@ -16,10 +16,11 @@
 - Infraestrutura do Heroku integrado ao GitHub;
 
 ## Descrição:
-O Projeto está no GitHub. O Heroku está com uma pipeline que pode ser promovida a production.
+O Projeto está no GitHub. O Heroku está com uma pipeline onde é gerada a build. Esta build pode ser promovida a production.
+Inicialmente o projeto está com "Hello World", posteriormente tem um formulário onde o usuário pode informar uma frase que o conteúdo desta frase passa num marquee.
 Trata-se de uma aplicação bem simples voltada apenas para exemplificar uma modelo de continuous deploy.
-Para isso, foram criadas duas classes: Frase e FraeTeste
-Eu não tenho experiência com esta infraestrutura nem tão pouco com testes unitários.
+Para isso foram criadas duas classes: Frase e FraseTeste
+Eu não tenho experiência com esta infraestrutura, nem tão pouco com testes unitários.
 Tem sido gratificante aprender esta tecnologia e eu pretendo dar continuidade no exercício para tentar 
 colocar isso em prática de alguma forma.
 
