@@ -18,12 +18,12 @@ PHPUnit;
 Composer;
 
 ## Descrição:
-O Projeto está no GitHub. O Heroku está sem pipeline no momento mas está integrado ao GitHub.
-Foram criadas duas classes simples: Usuario e UsuarioTeste
-Estou ajustando ainda.
-Eu não tenho experiência com esta infraestrutura toda. Tem sido bastante gratificante aprender esta tecnologia
-e eu pretendo dar continuidade no exercício para tentar colocar isso em prática de alguma forma.
-Ainda falta efetuar o teste da aplicação.
+O Projeto está no GitHub. O Heroku está com uma pipeline que pode ser promovida a production.
+Trata-se de uma aplicação bem simples voltada apenas para exemplificar uma modelo de continuous deploy.
+Para isso, foram criadas duas classes: Frase e FraeTeste
+Eu não tenho experiência com esta infraestrutura nem tão pouco com testes unitários.
+Tem sido gratificante aprender esta tecnologia e eu pretendo dar continuidade no exercício para tentar 
+colocar isso em prática de alguma forma.
 
 ## Roteiro incialmente utilizado:
 # php-getting-started
