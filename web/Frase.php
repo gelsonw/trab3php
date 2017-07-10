@@ -13,3 +13,4 @@ class Frase  {
 	{
 		return $this->frase;
 	}
+}
